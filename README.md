@@ -1,2 +1,4 @@
-Swift3 Templates
-by eric phung
+Swift Codeblocks and References
+----
+
+All stuff I used and will use again.
