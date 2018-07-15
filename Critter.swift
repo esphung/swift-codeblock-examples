@@ -6,6 +6,9 @@ bcuz:	template for swift3 class
 */
 
 class Critter {
+	init() {
+		
+	}
 
 	// var
 	private var name:String!

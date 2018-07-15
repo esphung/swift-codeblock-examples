@@ -35,6 +35,10 @@ final class MyClass: Copying {
         id = original.id
         name = original.name
     }
+
+    deinit {
+        // perform the deinitialization
+    }
 }
 
 //Array cloning
