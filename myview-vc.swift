@@ -3,7 +3,6 @@ import UIKit.UIViewController
 
 class BasicLayoutFullPageVC: UIViewController {
 
-
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		// Do any additional setup after loading the view.
@@ -19,10 +18,7 @@ class BasicLayoutFullPageVC: UIViewController {
 		myView.heightAnchor.constraint(equalToConstant: screenHeight *  0.95).isActive = true
 		myView.layer.borderColor = UIColor.black.cgColor
 		myView.layer.borderWidth = 2.0
-		
 
-
-	}
+	}//  end viewDidLoad
 	
-
-}
+}// end vc definition
