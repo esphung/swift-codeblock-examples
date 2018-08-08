@@ -1,14 +1,6 @@
-@objc func buttonTapped(_ sender: UIButton) {
-	isChecked = !isChecked
-	if isChecked {
-		sender.setTitle("✓", for: .normal)
-		sender.setTitleColor(.green, for: .normal)
-	} else {
-		sender.setTitle("X", for: .normal)
-		sender.setTitleColor(.red, for: .normal)
-	}
-}
 
+
+// MARK: - Set Up CheckMark Button
 button = UIButton(frame: CGRect(
 	x: myListIndent,
 	y: screenHeight * 0.325,
@@ -29,3 +21,15 @@ button.addTarget(
 	for: .touchUpInside)
 
 view.addSubview(button)
+
+// MARK: - CheckMark Button Action
+@objc func buttonTapped(_ sender: UIButton) {
+	isChecked = !isChecked
+	if isChecked {
+		sender.setTitle("✓", for: .normal)
+		sender.setTitleColor(.green, for: .normal)
+	} else {
+		sender.setTitle("X", for: .normal)
+		sender.setTitleColor(.red, for: .normal)
+	}
+}
